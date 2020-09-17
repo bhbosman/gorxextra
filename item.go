@@ -2,8 +2,8 @@ package gorxextra
 
 import (
 	"context"
-	rxgo "github.com/ReactiveX/RxGo"
 	"github.com/bhbosman/gocommon/constants"
+	rxgo "github.com/reactivex/rxgo/v2"
 	"time"
 )
 
