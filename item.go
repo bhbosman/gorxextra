@@ -2,7 +2,7 @@ package gorxextra
 
 import (
 	"context"
-	"github.com/bhbosman/gocommon/constants"
+	"github.com/bhbosman/goerrors"
 	rxgo "github.com/reactivex/rxgo/v2"
 	"time"
 )
@@ -21,7 +21,7 @@ func SendContextWithTimeOutAndRetries(
 		select {
 		case <-newTimer.C:
 			if r == retryCount {
-				return constants.TimeOut
+				return goerrors.TimeOut
 			}
 			continue
 		case <-ctx.Done():
@@ -30,5 +30,5 @@ func SendContextWithTimeOutAndRetries(
 			return nil
 		}
 	}
-	return constants.InvalidParam
+	return goerrors.InvalidParam
 }
