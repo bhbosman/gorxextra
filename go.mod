@@ -3,7 +3,6 @@ module github.com/bhbosman/gorxextra
 go 1.15
 
 require (
-	github.com/bhbosman/rxgo/v2 master
 	github.com/bhbosman/goerrors v0.0.0-20200918064252-e47717b09c4f
 	github.com/cenkalti/backoff/v4 v4.0.2 // indirect
 	github.com/reactivex/rxgo/v2 v2.1.0
@@ -12,6 +11,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
 )
 
-
-replace github.com/bhbosman/rxgo/v2 master => github.com/reactivex/rxgo/v2 v2.1.0
-
+replace github.com/reactivex/rxgo/v2 v2.1.0 => github.com/bhbosman/rxgo/v2 v2.1.1-0.20200918045653-8f289de0d2ff
