@@ -3,7 +3,7 @@ module github.com/bhbosman/gorxextra
 go 1.15
 
 require (
-	github.com/bhbosman/gocommon v0.0.0-20200915113840-933884eb9967
+	github.com/bhbosman/goerrors v0.0.0-20200918064252-e47717b09c4f
 	github.com/cenkalti/backoff/v4 v4.0.2 // indirect
 	github.com/reactivex/rxgo/v2 v2.1.0
 	github.com/stretchr/objx v0.3.0 // indirect

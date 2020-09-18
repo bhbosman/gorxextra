@@ -1,5 +1,5 @@
-github.com/bhbosman/gocommon v0.0.0-20200915113840-933884eb9967 h1:YdIQXv3xKxSkA1zJR33YGdkP4cx8FH0LZ0XIqLpKoCk=
-github.com/bhbosman/gocommon v0.0.0-20200915113840-933884eb9967/go.mod h1:WBXCWr4dv1mibkfKJCUd6GzJl0osg4AyZsLWB2kuocA=
+github.com/bhbosman/goerrors v0.0.0-20200918064252-e47717b09c4f h1:tn+HxggOxuewICKQ+p4mLoRyfE503xgIhWDo+2Z3dWk=
+github.com/bhbosman/goerrors v0.0.0-20200918064252-e47717b09c4f/go.mod h1:Otn1qS556wnQOL+lAkheIV/UxgKITTmY3KDYAXkQbfQ=
 github.com/cenkalti/backoff/v4 v4.0.0 h1:6VeaLF9aI+MAUQ95106HwWzYZgJJpZ4stumjj6RFYAU=
 github.com/cenkalti/backoff/v4 v4.0.0/go.mod h1:eEew/i+1Q6OrCDZh3WiXYv3+nJwBASZ8Bog/87DQnVg=
 github.com/cenkalti/backoff/v4 v4.0.2 h1:JIufpQLbh4DkbQoii76ItQIUFzevQSqOLZca4eamEDs=
