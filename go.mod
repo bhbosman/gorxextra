@@ -8,7 +8,4 @@ require (
 	github.com/stretchr/objx v0.3.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
 )
-
-replace github.com/bhbosman/goerrors => ../goerrors
 replace github.com/reactivex/rxgo/v2 v2.1.0 => github.com/bhbosman/rxgo/v2 v2.1.1-0.20200922152528-6aef42e76e00
-
