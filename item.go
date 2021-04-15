@@ -3,7 +3,7 @@ package gorxextra
 import (
 	"context"
 	"github.com/bhbosman/goerrors"
-	rxgo "github.com/reactivex/rxgo/v2"
+	"github.com/reactivex/rxgo/v2"
 	"time"
 )
 
